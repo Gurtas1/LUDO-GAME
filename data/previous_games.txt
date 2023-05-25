@@ -1,0 +1,14 @@
+Name1/Name2/Name3/Name4/Winner/Colour/Number_of_kills
+Player n. 1/ Player n. 2/ Player n. 3/ Player n. 4/ Player n. 2 Red 0
+Player n. 1/ Player n. 2/ Player n. 3/ Player n. 4/ Player n. 2 Blue 0
+Player n. 1/ Player n. 2/ Player n. 3/ Player n. 4/ Player n. 2 Red 0
+Player n. 1/ Player n. 2/ Player n. 3/ Player n. 4/ Player n. 2 Green 0
+Player n. 1/ Player n. 2/ Player n. 3/ Player n. 4/ Player n. 2 Yellow 0
+Player n. 1/ Player n. 2/ Player n. 3/ Player n. 4/ Player n. 2 Red 0
+Player n. 1/ Player n. 2/ Player n. 3/ Player n. 4/ Player n. 2 Red 0
+Player n. 1/ Player n. 2/ Player n. 3/ Player n. 4/ Player n. 2 Red 0
+Player n. 1/ Player n. 2/ Player n. 3/ Player n. 4/ Player n. 2 Red 1
+Milan/ Michal/ Červený/ Počítač/ Milan Red 0
+Martin/ Fero/ Lukas/ Not playing/ Fero Yellow 2
+Martin/ Fero/ Lukas/ Not playing/ Martin Green 1
+Marianna/ Nela/ Martin/ Jano/ Nela Red 0

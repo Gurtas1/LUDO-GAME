@@ -1,0 +1,35 @@
+LUDO GAME
+Autor: Martin Klokočík
+
+Pravidlá:
+
+Počet hodov 6tky po sebe je nekonečný. Hra končí keď jeden hráč ako prvý dobehne do cieľa so 4 figúrkami. Hru môžu hrať minimálne 2 hráči.
+
+
+Hra je vytvorená v 3 triedach. V tele programu je zavolaná len hlavná trieda Človeče, ktorá dedí informácie z triedy Menu.
+
+Trieda Menu slúži na získanie informácií ako je počet hráčov (posúvanie na škále) a následne mená hráčov. 
+Mená hráčov sa defaultne dopĺňajú do Entry podľa toho aké mená boli v hre predošlé. Čerpajú z textového súboru.
+Hra sa musí dohrať aby sa mena doplnili. V prípade že sa hráč rozhodne zadať menej hráčov, vyskočí okno ktoré ho na to
+upozorní a poprípade vypne program. 
+
+Trieda Človeče je celá hra. Plocha je nakreslená v tkinter. Každé políčko má svoje jedinečné súradnice uložené v slovníkoch.
+Hod kocky je vytvorená animácia z preskakujúcich obrázkov - na začiatku sa prehadzujú veľmi rýchlo, a neskôr čoraz pomalšie, 
+snažil som sa tým vytvoriť  efekt hádzania skutočnej kocky.
+Pri nastaní situácie že je viac rôznych figúr na jednom mieste tak sa rozdelia do krajov. Nie je možné vyhadzovať niekoho, kto
+stojí na vlastnom štarte. Pri každom hode hra vyhodnotí či sa hráč môže pohnúť nejakou figúrkou, pokiaľ nie, tak je na rade ďalší.
+Pokiaľ áno, tak čaká kým klikne hráč na figúrku ktorá sa môže niekam pohnúť. 
+Hra končí keď má hráč 4 figúrky v cieli. 
+
+Keď hra skončí, tak sa do textového súboru './data/previous_games.txt' napíšu mená hráčov, víťaz, víťazná farba a počet figúrok, ktoré zabil.
+Tak isto sa napíše do textového súboru "./data/the_most_wins.txt" , farbu, ktorá vyhrala aby sa robila štatistika, ktorá farba najviac vyhráva.
+Toto všetko sa vypisuje následne v triede EndScreen, ktorá sa automaticky spustí po konci hry.
+
+Trieda Endscreen teda obsahuje víťaza, predošlých 5 hier a najdominantnejšiu farbu za celý čas.
+
+Pokiaľ by ste si chceli hru nejak zrýchlenejšie zahrať celú aby ste dosiahli aj Endscreen a víťaza a vyskúšali všetky funkcie, môžem kód upraviť
+aby neboli hráči v domčeku, aby šla hra rýchlejšie a podobne.
+Pokiaľ sú nejaké otázky rád zodpoviem (mklokocik@gmail.com). Strávil som nad projektom značné množstvo času a snažil som sa dodržať všetky body podmienok, ak 
+by neboli všetky splnené rád ich dorobím.
+
+V prípade, že by projekt nešiel spustiť je možné že je potrebné u vás nainštalovať interpreter - Pillow.
